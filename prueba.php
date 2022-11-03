@@ -1,5 +1,11 @@
 <?php
- echo"hola mundo"
- echo"hola tropa"
+$a = 3;
+$b = 5;
+
+if (a == b) {
+    echo "hola";
+}else{
+    echo "hello";
+}
 
 ?>
