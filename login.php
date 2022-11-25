@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gentelella Alela! | </title>
+    <title>Login! | </title>
 
     <!-- Bootstrap -->
     <link href="Gentella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,9 +20,12 @@
 
     <!-- Custom Theme Style -->
     <link href="Gentella/build/css/custom.min.css" rel="stylesheet">
-  </head>
 
-  <body class="login">
+  </head>
+  
+  <body class="bg-image" 
+     style="background-image: url('https://mdbootstrap.com/img/new/standard/city/041.jpg');
+            height: 100vh" class="login">
     <div>
       <a class="hiddenanchor" id="signup"></a>
       <a class="hiddenanchor" id="signin"></a>
@@ -30,6 +33,7 @@
       <div class="login_wrapper">
         <div class="animate form login_form">
           <section class="login_content">
+          <img width="150px" src="Gentella/img/logo iestp.png" alt="">
             <form method="POST" action="operaciones/iniciar_sesion.php">
               <h1>Inicio de Sesión</h1>
               <div>
@@ -54,8 +58,9 @@
                 <br />
 
                 <div>
-                  <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-                  <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 3 template. Privacy and Terms</p>
+                  <h1><i ></i> I.E.S.T.P. "HUANTA"</h1>
+                  <P>Bienvenido a la plataforma de Portafolio Docente, Inicie Sesion para acceder en modo Administrador</P>
+                  <img width="150px" src="Gentella/img/logo iestp.png" alt="">
                 </div>
               </div>
             </form>

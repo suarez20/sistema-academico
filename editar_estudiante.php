@@ -216,8 +216,9 @@ $res_b_estudiante = mysqli_fetch_array($busc_estudiante);
                       <div class="ln_solid"></div>
                       <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
-                          <button class="btn btn-primary" type="button">Cancelar</button>
-						  <button class="btn btn-primary" type="reset">Limpiar</button>
+                          <a href="Estudiantes.php"><button class="btn btn-primary" type="button">Cancelar</button></a>
+                          
+						              <button class="btn btn-primary" type="reset">Limpiar</button>
                           <button type="submit" class="btn btn-success">Actualizar Datos</button>
                         </div>
                       </div>
@@ -231,10 +232,7 @@ $res_b_estudiante = mysqli_fetch_array($busc_estudiante);
         <!-- /page content -->
         <!-- footer content -->
         <footer>
-          <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
-          </div>
-          <div class="clearfix"></div>
+      
         </footer>
         <!-- /footer content -->
       </div>

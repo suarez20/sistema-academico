@@ -39,17 +39,16 @@ include "include/busquedas.php";
         <div class="right_col" role="main">
           <div class="row">
             <div class="col-md-8 col-sm-8 col-xs-12">
-              <?php echo $_SESSION['id_usu_sisacad_iesthuanta']; ?>
+              <?php  $_SESSION['id_usu_sisacad_iesthuanta']; ?>
+              <img src="Gentella/production/images/instituto.webp" alt="">
+              
             </div>
           </div>
         </div>
         <!-- /page content -->
         <!-- footer content -->
         <footer>
-          <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
-          </div>
-          <div class="clearfix"></div>
+        
         </footer>
         <!-- /footer content -->
       </div>
