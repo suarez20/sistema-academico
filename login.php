@@ -59,8 +59,9 @@
 
                 <div>
                   <h1><i ></i> I.E.S.T.P. "HUANTA"</h1>
+                  
                   <P>Bienvenido a la plataforma de Portafolio Docente, Inicie Sesion para acceder en modo Administrador</P>
-                  <img width="150px" src="Gentella/img/logo iestp.png" alt="">
+                  <img width="150px" src="Gentella/img/logo iestp.png" alt="rf">
                 </div>
               </div>
             </form>
